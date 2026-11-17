@@ -1,0 +1,4 @@
+[2026-11-05T05:44:19+00:00] START roadNet-CA_p4_original_blocking
+Completed dataset=roadNet-CA N=1971281 ranks=4 mode=blocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS roadNet-CA_p4_original_blocking ranks=4 sources=16
+[2026-11-05T05:46:26+00:00] DONE roadNet-CA_p4_original_blocking

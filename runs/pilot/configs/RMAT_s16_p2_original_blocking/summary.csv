@@ -1,0 +1,3 @@
+dataset,vertices,edges,ranks,ordering,mode,source_index,source_vertex,elapsed_ms,traversed_edges,teps,reachable_vertices,remote_pairs_sent,remote_payload_bytes,validation,graph_seed,permutation_seed
+RMAT_s16,65536,477642,2,original,blocking,0,34247,75.8496,477599,6.29666e+06,40332,376046,6016736,PASS,12345,13464654573299691533
+RMAT_s16,65536,477642,2,original,blocking,1,14814,0.132477,0,0,1,0,0,PASS,12345,13464654573299691533

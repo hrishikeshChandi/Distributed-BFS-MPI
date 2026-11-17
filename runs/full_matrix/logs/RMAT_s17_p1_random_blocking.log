@@ -1,0 +1,4 @@
+[2026-11-05T06:15:38+00:00] START RMAT_s17_p1_random_blocking
+Completed dataset=RMAT_s17 N=131072 ranks=1 mode=blocking ordering=random repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s17_p1_random_blocking ranks=1 sources=16
+[2026-11-05T06:15:42+00:00] DONE RMAT_s17_p1_random_blocking

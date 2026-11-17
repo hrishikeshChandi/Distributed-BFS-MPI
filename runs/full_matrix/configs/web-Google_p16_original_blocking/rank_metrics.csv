@@ -1,0 +1,17 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+web-Google,original,0,16,916428,321993,303363
+web-Google,original,1,16,916428,318025,300524
+web-Google,original,2,16,916428,321563,302804
+web-Google,original,3,16,916428,319024,299244
+web-Google,original,4,16,916428,322069,303666
+web-Google,original,5,16,916428,319551,301370
+web-Google,original,6,16,916428,317712,298951
+web-Google,original,7,16,916428,319944,300061
+web-Google,original,8,16,916428,319275,299967
+web-Google,original,9,16,916428,319499,299552
+web-Google,original,10,16,916428,318917,299151
+web-Google,original,11,16,916428,321092,301629
+web-Google,original,12,16,916428,313646,293696
+web-Google,original,13,16,916428,317593,297383
+web-Google,original,14,16,916428,318899,296418
+web-Google,original,15,16,916428,316237,289675

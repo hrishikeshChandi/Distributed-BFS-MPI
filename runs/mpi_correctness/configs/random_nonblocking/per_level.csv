@@ -1,0 +1,9 @@
+dataset,vertices,ranks,ordering,mode,source_index,level,next_frontier,expansion_ms,packing_ms,count_exchange_ms,collective_request_ms,local_candidate_ms,residual_wait_ms,received_merge_ms,level_wall_ms,remote_pairs_sent,remote_payload_bytes,frontier_imbalance
+RMAT_smoke,1024,2,random,nonblocking,0,0,1,0.000983,0.002881,0.904081,0.928213,6.7e-05,0.91094,0.00127,0.942144,1,16,2
+RMAT_smoke,1024,2,random,nonblocking,0,1,14,0.002821,0.001261,0.004831,0.004814,0.00135,0.001987,0.00108,0.012371,6,96,1.28571
+RMAT_smoke,1024,2,random,nonblocking,0,2,326,0.018226,0.002465,0.012517,0.023258,0.003151,0.016734,0.004039,0.049419,350,5600,1.06135
+RMAT_smoke,1024,2,random,nonblocking,0,3,321,0.06395,0.027348,0.042914,0.035919,0.003152,0.01485,0.006604,0.146881,2564,41024,1.03427
+RMAT_smoke,1024,2,random,nonblocking,0,4,18,0.013969,0.001877,0.002162,0.033035,0.00113,0.004646,0.001035,0.052038,442,7072,1.11111
+RMAT_smoke,1024,2,random,nonblocking,0,5,1,0.001014,0.001097,0.00173,0.003457,0.000143,0.001794,9.1e-05,0.0072,9,144,2
+RMAT_smoke,1024,2,random,nonblocking,0,6,0,9.8e-05,0.00075,0.014027,0.001194,8.9e-05,0.000179,8.1e-05,0.030838,0,0,0
+RMAT_smoke,1024,2,random,nonblocking,1,0,0,0.000589,0.002438,0.083636,0.006686,7.9e-05,0.001071,6.4e-05,0.094591,0,0,0

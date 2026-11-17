@@ -1,0 +1,14 @@
+{
+  "soc-Epinions1.txt": {
+    "bytes": 5663083,
+    "sha256": "3e42b000e66cada74053ac7f8b24de291f9837264421dc2f3730b45cc58d17b1"
+  },
+  "web-Google.txt": {
+    "bytes": 75380115,
+    "sha256": "8c0f453f1eb1e24ad145e36e542b129083237e96e585abae768927bdb70167d1"
+  },
+  "roadNet-CA.txt": {
+    "bytes": 87787225,
+    "sha256": "04b991d4d5285bda35c699244ccdac9f4b35818c0d0bfb037b1f852be103b540"
+  }
+}

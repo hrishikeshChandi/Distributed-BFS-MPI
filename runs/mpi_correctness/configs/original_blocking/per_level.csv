@@ -1,0 +1,9 @@
+dataset,vertices,ranks,ordering,mode,source_index,level,next_frontier,expansion_ms,packing_ms,count_exchange_ms,collective_request_ms,local_candidate_ms,residual_wait_ms,received_merge_ms,level_wall_ms,remote_pairs_sent,remote_payload_bytes,frontier_imbalance
+RMAT_smoke,1024,2,original,blocking,0,0,1,0.001311,0.00221,0.031104,0.011363,7.5e-05,0,0.000414,0.050378,1,16,2
+RMAT_smoke,1024,2,original,blocking,0,1,14,0.002958,0.001163,0.00948,0.008019,0.000442,0,0.001342,0.043141,13,208,1.71429
+RMAT_smoke,1024,2,original,blocking,0,2,326,0.017917,0.00329,0.027175,0.078253,0.005137,0,0.00335,0.182199,223,3568,1.31902
+RMAT_smoke,1024,2,original,blocking,0,3,321,0.091499,0.007118,0.154978,0.217665,0.005288,0,0.004331,0.44198,1970,31520,1.05296
+RMAT_smoke,1024,2,original,blocking,0,4,18,0.012651,0.001787,0.023936,0.012031,0.000729,0,0.000812,0.049414,439,7024,1.22222
+RMAT_smoke,1024,2,original,blocking,0,5,1,0.000947,0.000764,0.008495,0.005897,6.8e-05,0,0.00019,0.016056,11,176,2
+RMAT_smoke,1024,2,original,blocking,0,6,0,0.000118,0.000568,0.005011,0.004596,4.2e-05,0,6.4e-05,0.013712,1,16,0
+RMAT_smoke,1024,2,original,blocking,1,0,0,0.000299,0.001824,0.041076,0.015396,7.7e-05,0,9.7e-05,0.064756,0,0,0

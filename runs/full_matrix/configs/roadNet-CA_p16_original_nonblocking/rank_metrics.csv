@@ -1,0 +1,17 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+roadNet-CA,original,0,16,1971281,344825,4577
+roadNet-CA,original,1,16,1971281,339550,5258
+roadNet-CA,original,2,16,1971281,350504,6558
+roadNet-CA,original,3,16,1971281,356676,7796
+roadNet-CA,original,4,16,1971281,381867,6467
+roadNet-CA,original,5,16,1971281,342332,6448
+roadNet-CA,original,6,16,1971281,338134,6006
+roadNet-CA,original,7,16,1971281,334704,9144
+roadNet-CA,original,8,16,1971281,342752,12228
+roadNet-CA,original,9,16,1971281,339588,11066
+roadNet-CA,original,10,16,1971281,358892,6946
+roadNet-CA,original,11,16,1971281,339097,3321
+roadNet-CA,original,12,16,1971281,349799,4239
+roadNet-CA,original,13,16,1971281,337742,6670
+roadNet-CA,original,14,16,1971281,338215,5711
+roadNet-CA,original,15,16,1971281,338537,2973

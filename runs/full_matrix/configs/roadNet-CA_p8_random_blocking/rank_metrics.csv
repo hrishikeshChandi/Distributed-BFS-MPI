@@ -1,0 +1,9 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+roadNet-CA,random,0,8,1971281,691792,604962
+roadNet-CA,random,1,8,1971281,691229,604941
+roadNet-CA,random,2,8,1971281,691967,605725
+roadNet-CA,random,3,8,1971281,691748,605826
+roadNet-CA,random,4,8,1971281,691079,604681
+roadNet-CA,random,5,8,1971281,691910,605466
+roadNet-CA,random,6,8,1971281,692397,605831
+roadNet-CA,random,7,8,1971281,691092,604614

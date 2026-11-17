@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "notebook": "01",
+  "completed_at_utc": "2026-11-04T16:54:45.198162+00:00",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24",
+  "mpi_implementation": "Open MPI",
+  "process_counts_probed": [
+    1,
+    2
+  ],
+  "bfs_configurations_passed": 4
+}

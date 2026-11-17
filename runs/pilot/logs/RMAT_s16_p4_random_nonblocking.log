@@ -1,0 +1,4 @@
+[2026-11-04T17:00:14+00:00] START RMAT_s16_p4_random_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=4 mode=nonblocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p4_random_nonblocking ranks=4 sources=2
+[2026-11-04T17:00:16+00:00] DONE RMAT_s16_p4_random_nonblocking

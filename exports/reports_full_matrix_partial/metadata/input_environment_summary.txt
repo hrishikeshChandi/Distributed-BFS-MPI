@@ -1,0 +1,10 @@
+MPI implementation: Open MPI
+Compiler: /usr/bin/mpicxx.openmpi
+Compiler version: /usr/bin/mpicxx.openmpi: Open MPI 4.1.6 (Language: C++)
+Launcher: /usr/bin/mpirun.openmpi
+Launcher version: mpirun.openmpi (OpenRTE) 4.1.6
+
+Report bugs to http://www.open-mpi.org/community/help/
+Available logical CPUs recorded by Notebook 03: 2
+Platform: single Google Colab VM; MPI ranks are not distributed across multiple nodes.
+Interpretation: rank counts greater than the available logical CPU count are oversubscribed.

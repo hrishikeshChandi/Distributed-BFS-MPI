@@ -1,0 +1,4 @@
+[2026-11-05T09:05:54+00:00] START RMAT_s24_p8_original_blocking
+Completed dataset=RMAT_s24 N=16777216 ranks=8 mode=blocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s24_p8_original_blocking ranks=8 sources=16
+[2026-11-05T09:10:38+00:00] DONE RMAT_s24_p8_original_blocking

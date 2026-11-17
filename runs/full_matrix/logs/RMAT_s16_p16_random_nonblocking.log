@@ -1,0 +1,4 @@
+[2026-11-05T06:15:26+00:00] START RMAT_s16_p16_random_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=16 mode=nonblocking ordering=random repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p16_random_nonblocking ranks=16 sources=16
+[2026-11-05T06:15:31+00:00] DONE RMAT_s16_p16_random_nonblocking

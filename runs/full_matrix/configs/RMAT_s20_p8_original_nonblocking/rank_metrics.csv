@@ -1,0 +1,9 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+RMAT_s20,original,0,8,1048576,6909480,4089404
+RMAT_s20,original,1,8,1048576,2255596,1987356
+RMAT_s20,original,2,8,1048576,2255859,1988101
+RMAT_s20,original,3,8,1048576,724831,700883
+RMAT_s20,original,4,8,1048576,2257303,1990047
+RMAT_s20,original,5,8,1048576,725858,701948
+RMAT_s20,original,6,8,1048576,725159,701151
+RMAT_s20,original,7,8,1048576,231002,228890

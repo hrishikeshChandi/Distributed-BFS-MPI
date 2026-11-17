@@ -1,0 +1,4 @@
+[2026-11-05T06:17:10+00:00] START RMAT_s18_p1_original_nonblocking
+Completed dataset=RMAT_s18 N=262144 ranks=1 mode=nonblocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s18_p1_original_nonblocking ranks=1 sources=16
+[2026-11-05T06:17:16+00:00] DONE RMAT_s18_p1_original_nonblocking

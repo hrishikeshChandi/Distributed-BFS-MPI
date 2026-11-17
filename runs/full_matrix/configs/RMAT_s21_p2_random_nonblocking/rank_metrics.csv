@@ -1,0 +1,3 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+RMAT_s21,random,0,2,2097152,16040479,8103635
+RMAT_s21,random,1,2,2097152,16378083,8103635

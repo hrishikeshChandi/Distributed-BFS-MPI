@@ -1,0 +1,9 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+web-Google,random,0,8,916428,639059,559801
+web-Google,random,1,8,916428,643588,561327
+web-Google,random,2,8,916428,640666,561286
+web-Google,random,3,8,916428,634493,556188
+web-Google,random,4,8,916428,637316,557552
+web-Google,random,5,8,916428,633469,555529
+web-Google,random,6,8,916428,637142,557863
+web-Google,random,7,8,916428,639306,557281

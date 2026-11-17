@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "notebook": "04",
+  "completed_at_utc": "2026-11-05T12:51:00.574192+00:00",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24",
+  "completion": {
+    "input_run": "full_matrix",
+    "input_matrix_status": "PARTIAL_VALIDATED",
+    "input_configurations_validated": 234,
+    "input_configurations_planned": 240,
+    "input_bfs_rows": 3744,
+    "input_missing_configurations": [
+      "RMAT_s24_p16_original_blocking",
+      "RMAT_s24_p16_original_nonblocking",
+      "RMAT_s24_p16_random_blocking",
+      "RMAT_s24_p16_random_nonblocking",
+      "RMAT_s24_p8_random_blocking",
+      "RMAT_s24_p8_random_nonblocking"
+    ],
+    "input_zero_work_runs": 2102,
+    "input_zero_work_fraction": 0.5614316239316239,
+    "datasets": [
+      "RMAT_s16",
+      "RMAT_s17",
+      "RMAT_s18",
+      "RMAT_s19",
+      "RMAT_s20",
+      "RMAT_s21",
+      "RMAT_s22",
+      "RMAT_s23",
+      "RMAT_s24",
+      "roadNet-CA",
+      "soc-Epinions1",
+      "web-Google"
+    ],
+    "charts_verified": 60,
+    "docx_paragraphs": 20,
+    "docx_table_rows": 13,
+    "pptx_slides": 18,
+    "report_generation_success": true,
+    "benchmark_matrix_complete": false
+  }
+}

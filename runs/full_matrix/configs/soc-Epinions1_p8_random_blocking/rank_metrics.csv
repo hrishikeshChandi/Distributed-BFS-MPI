@@ -1,0 +1,9 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+soc-Epinions1,random,0,8,75888,63762,55161
+soc-Epinions1,random,1,8,75888,62040,54467
+soc-Epinions1,random,2,8,75888,64346,56383
+soc-Epinions1,random,3,8,75888,62421,54624
+soc-Epinions1,random,4,8,75888,65684,57576
+soc-Epinions1,random,5,8,75888,63315,55981
+soc-Epinions1,random,6,8,75888,64263,55903
+soc-Epinions1,random,7,8,75888,63006,55276

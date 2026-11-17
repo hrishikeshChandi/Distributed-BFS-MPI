@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "notebook": "01",
+  "error_type": "RuntimeError",
+  "error": "The selected compiler and launcher are not both Open MPI. Compiler='/usr/bin/mpicxx.openmpi: Open MPI 4.1.6 (Language: C++)'; launcher='mpirun.openmpi (OpenRTE) 4.1.6'",
+  "traceback": "Traceback (most recent call last):\n  File \"/tmp/ipykernel_2816/1516743415.py\", line 50, in <cell line: 0>\n    mpi = cb.install_openmpi_and_build(\n        WORK_DIR, WORKSPACE, process_counts=[1, 2],\n        install=True, install_python_requirements=True,\n    )\n  File \"/content/drive/MyDrive/Distributed_BFS_MPI_Colab/colab_helpers.py\", line 294, in install_openmpi_and_build\n    raise RuntimeError(\n    ...<2 lines>...\n    )\nRuntimeError: The selected compiler and launcher are not both Open MPI. Compiler='/usr/bin/mpicxx.openmpi: Open MPI 4.1.6 (Language: C++)'; launcher='mpirun.openmpi (OpenRTE) 4.1.6'\n",
+  "failed_at_utc": "2026-11-04T16:51:45.782236+00:00"
+}

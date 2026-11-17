@@ -1,0 +1,57 @@
+{
+  "stage": "full_matrix",
+  "datasets": [
+    "soc-Epinions1",
+    "web-Google",
+    "roadNet-CA",
+    "RMAT_s16",
+    "RMAT_s17",
+    "RMAT_s18",
+    "RMAT_s19",
+    "RMAT_s20",
+    "RMAT_s21",
+    "RMAT_s22",
+    "RMAT_s23",
+    "RMAT_s24"
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "orderings": [
+    "original",
+    "random"
+  ],
+  "modes": [
+    "blocking",
+    "nonblocking"
+  ],
+  "repetitions": 16,
+  "scales": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "edge_factor": 8,
+  "run_snap": true,
+  "run_rmat": true,
+  "mpi_compiler": "/usr/bin/mpicxx.openmpi",
+  "mpi_launcher": "/usr/bin/mpirun.openmpi",
+  "mpi_version": "mpirun.openmpi (OpenRTE) 4.1.6",
+  "snap_sha256": {
+    "soc-Epinions1.txt": "3e42b000e66cada74053ac7f8b24de291f9837264421dc2f3730b45cc58d17b1",
+    "web-Google.txt": "8c0f453f1eb1e24ad145e36e542b129083237e96e585abae768927bdb70167d1",
+    "roadNet-CA.txt": "04b991d4d5285bda35c699244ccdac9f4b35818c0d0bfb037b1f852be103b540"
+  },
+  "runner_version": "mpi-validated-v2-openmpi",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24"
+}

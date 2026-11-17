@@ -1,0 +1,71 @@
+{
+  "mpi_implementation": "Open MPI",
+  "compiler": "/usr/bin/mpicxx.openmpi",
+  "compiler_version": "/usr/bin/mpicxx.open mpi: Open MPI 4.1.6 (Language: C++)",
+  "compiler_command": "g++",
+  "compiler_link_flags": "-L/usr/lib/x86_64-linux-gnu/open mpi/lib -lmpi_cxx -lmpi",
+  "launcher": "/usr/bin/mpirun.openmpi",
+  "launcher_version": "mpirun.open mpi (Open MPI) 4.1.6\n\nReport bugs to http://www.open-mpi.org/community/help/",
+  "inherited_mpi_environment_variables_removed": [],
+  "probe_compile_return_code": 0,
+  "probe_compile_output": "",
+  "probes": {
+    "1": {
+      "command": [
+        "/usr/bin/mpirun.openmpi",
+        "--allow-run-as-root",
+        "--oversubscribe",
+        "--bind-to",
+        "none",
+        "-np",
+        "1",
+        "/content/mpi_two_rank_probe"
+      ],
+      "return_code": 0,
+      "output": "MPI_PROBE rank=0 size=1 library=Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\n",
+      "ranks": [
+        0
+      ],
+      "communicator_sizes": [
+        1
+      ],
+      "libraries": [
+        "Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023"
+      ],
+      "passed": true
+    },
+    "2": {
+      "command": [
+        "/usr/bin/mpirun.openmpi",
+        "--allow-run-as-root",
+        "--oversubscribe",
+        "--bind-to",
+        "none",
+        "-np",
+        "2",
+        "/content/mpi_two_rank_probe"
+      ],
+      "return_code": 0,
+      "output": "MPI_PROBE rank=0 size=2 library=Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\nMPI_PROBE rank=1 size=2 library=Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023\n",
+      "ranks": [
+        0,
+        1
+      ],
+      "communicator_sizes": [
+        2
+      ],
+      "libraries": [
+        "Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023",
+        "Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023"
+      ],
+      "passed": true
+    }
+  },
+  "bfs_build_return_code": 0,
+  "bfs_build_output": "In file included from /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/mpicxx.h:277,\n                 from /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h:2911,\n                 from /content/Distributed_BFS_MPI/src/distributed_bfs.cpp:1:\n/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h: In member function \u2018virtual void MPI::Op::Init(void (*)(const void*, void*, int, const MPI::Datatype&), bool)\u2019:\n/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:121:25: warning: cast between incompatible function types from \u2018void (*)(void*, void*, int*, ompi_datatype_t**, void (*)(void*, void*, int*, ompi_datatype_t**))\u2019 to \u2018void (*)(void*, void*, int*, ompi_datatype_t**)\u2019 [-Wcast-function-type]\n  121 |     (void)MPI_Op_create((MPI_User_function*) ompi_mpi_cxx_op_intercept,\n      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/op_inln.h:123:38: warning: cast between incompatible function types from \u2018void (*)(const void*, void*, int, const MPI::Datatype&)\u2019 to \u2018void (*)(void*, void*, int*, ompi_datatype_t**)\u2019 [-Wcast-function-type]\n  123 |     ompi_op_set_cxx_callback(mpi_op, (MPI_User_function*) func);\n      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~\n/content/Distributed_BFS_MPI/src/distributed_bfs.cpp: In function \u2018void mkdir_parent(const std::string&)\u2019:\n/content/Distributed_BFS_MPI/src/distributed_bfs.cpp:66:159: warning: ignoring return value of \u2018int system(const char*)\u2019 declared with attribute \u2018warn_unused_result\u2019 [-Wunused-result]\n   66 | static void mkdir_parent(const std::string&f){auto p=f.find_last_of('/');if(p!=std::string::npos) {std::string cmd=\"mkdir -p '\"+f.substr(0,p)+\"'\"; std::system(cmd.c_str());}}\n      |                                                                                                                                                    ~~~~~~~~~~~^~~~~~~~~~~~~\nBuilt /content/Distributed_BFS_MPI/build/distributed_bfs\n",
+  "bfs_executable_ldd": "\tlinux-vdso.so.1 (0x00007ffcdbf79000)\n\tlibmpi_cxx.so.40 => /lib/x86_64-linux-gnu/libmpi_cxx.so.40 (0x000079ba6f19d000)\n\tlibmpi.so.40 => /lib/x86_64-linux-gnu/libmpi.so.40 (0x000079ba6f06b000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x000079ba6eded000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000079ba6edbf000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000079ba6ebac000)\n\tlibopen-pal.so.40 => /lib/x86_64-linux-gnu/libopen-pal.so.40 (0x000079ba6eaf6000)\n\tlibopen-rte.so.40 => /lib/x86_64-linux-gnu/libopen-rte.so.40 (0x000079ba6ea3a000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000079ba6e951000)\n\tlibhwloc.so.15 => /usr/local/lib/libhwloc.so.15 (0x000079ba6e600000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000079ba6f1ea000)\n\tlibevent_core-2.1.so.7 => /lib/x86_64-linux-gnu/libevent_core-2.1.so.7 (0x000079ba6e91c000)\n\tlibevent_pthreads-2.1.so.7 => /lib/x86_64-linux-gnu/libevent_pthreads-2.1.so.7 (0x000079ba6e915000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000079ba6e8f9000)\n",
+  "python_requirements_install_output": "",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24",
+  "cpu_count": 2,
+  "created_at_utc": "2026-11-04T16:54:43.112938+00:00"
+}

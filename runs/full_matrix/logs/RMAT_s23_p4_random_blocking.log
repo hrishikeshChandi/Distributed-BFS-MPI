@@ -1,0 +1,4 @@
+[2026-11-05T07:42:31+00:00] START RMAT_s23_p4_random_blocking
+Completed dataset=RMAT_s23 N=8388608 ranks=4 mode=blocking ordering=random repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s23_p4_random_blocking ranks=4 sources=16
+[2026-11-05T07:44:57+00:00] DONE RMAT_s23_p4_random_blocking

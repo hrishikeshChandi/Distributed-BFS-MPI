@@ -1,0 +1,1 @@
+Open MPI two-rank communicator verified. All four BFS configurations passed.

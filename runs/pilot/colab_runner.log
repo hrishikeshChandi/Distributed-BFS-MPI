@@ -1,0 +1,54 @@
+[2026-11-04T16:59:56+00:00] START RMAT_s16_p1_original_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=1 mode=blocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p1_original_blocking ranks=1 sources=2
+[2026-11-04T16:59:58+00:00] DONE RMAT_s16_p1_original_blocking
+[2026-11-04T16:59:58+00:00] START RMAT_s16_p1_original_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=1 mode=nonblocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p1_original_nonblocking ranks=1 sources=2
+[2026-11-04T16:59:59+00:00] DONE RMAT_s16_p1_original_nonblocking
+[2026-11-04T16:59:59+00:00] START RMAT_s16_p1_random_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=1 mode=blocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p1_random_blocking ranks=1 sources=2
+[2026-11-04T17:00:00+00:00] DONE RMAT_s16_p1_random_blocking
+[2026-11-04T17:00:00+00:00] START RMAT_s16_p1_random_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=1 mode=nonblocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p1_random_nonblocking ranks=1 sources=2
+[2026-11-04T17:00:01+00:00] DONE RMAT_s16_p1_random_nonblocking
+[2026-11-04T17:00:01+00:00] START RMAT_s16_p2_original_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=2 mode=blocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p2_original_blocking ranks=2 sources=2
+[2026-11-04T17:00:02+00:00] DONE RMAT_s16_p2_original_blocking
+[2026-11-04T17:00:02+00:00] START RMAT_s16_p2_original_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=2 mode=nonblocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p2_original_nonblocking ranks=2 sources=2
+[2026-11-04T17:00:04+00:00] DONE RMAT_s16_p2_original_nonblocking
+[2026-11-04T17:00:04+00:00] START RMAT_s16_p2_random_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=2 mode=blocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p2_random_blocking ranks=2 sources=2
+[2026-11-04T17:00:05+00:00] DONE RMAT_s16_p2_random_blocking
+[2026-11-04T17:00:05+00:00] START RMAT_s16_p2_random_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=2 mode=nonblocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p2_random_nonblocking ranks=2 sources=2
+[2026-11-04T17:00:08+00:00] DONE RMAT_s16_p2_random_nonblocking
+[2026-11-04T17:00:08+00:00] START RMAT_s16_p4_original_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=4 mode=blocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p4_original_blocking ranks=4 sources=2
+[2026-11-04T17:00:10+00:00] DONE RMAT_s16_p4_original_blocking
+[2026-11-04T17:00:10+00:00] START RMAT_s16_p4_original_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=4 mode=nonblocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p4_original_nonblocking ranks=4 sources=2
+[2026-11-04T17:00:12+00:00] DONE RMAT_s16_p4_original_nonblocking
+[2026-11-04T17:00:13+00:00] START RMAT_s16_p4_random_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=4 mode=blocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p4_random_blocking ranks=4 sources=2
+[2026-11-04T17:00:14+00:00] DONE RMAT_s16_p4_random_blocking
+[2026-11-04T17:00:14+00:00] START RMAT_s16_p4_random_nonblocking
+Completed dataset=RMAT_s16 N=65536 ranks=4 mode=nonblocking ordering=random repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p4_random_nonblocking ranks=4 sources=2
+[2026-11-04T17:00:16+00:00] DONE RMAT_s16_p4_random_nonblocking
+RUN_COMPLETE: {"complete": true, "configurations": 12, "bfs_summary_rows": 24, "repetitions_per_configuration": 2, "datasets": ["RMAT_s16"], "ranks": [1, 2, 4], "orderings": ["original", "random"], "modes": ["blocking", "nonblocking"], "all_validations_pass": true, "runner_version": "mpi-validated-v2-openmpi", "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24"}
+Analyzed 24 validated BFS runs across 1 datasets. Aggregates and plots: /content/drive/MyDrive/Distributed_BFS_MPI_Colab/runs/pilot/plots
+/content/drive/MyDrive/Distributed_BFS_MPI_Colab/runs/pilot/report/Measured_Analysis_Report.md
+/content/drive/MyDrive/Distributed_BFS_MPI_Colab/runs/pilot/report/Two_Page_Report.docx
+Created /content/drive/MyDrive/Distributed_BFS_MPI_Colab/runs/pilot/presentation/Distributed_BFS_Results_Presentation.pptx (17 slides)
+ALL EXPERIMENTS COMPLETE: /content/drive/MyDrive/Distributed_BFS_MPI_Colab/runs/pilot

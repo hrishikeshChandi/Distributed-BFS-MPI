@@ -1,0 +1,4 @@
+[2026-11-04T17:00:01+00:00] START RMAT_s16_p2_original_blocking
+Completed dataset=RMAT_s16 N=65536 ranks=2 mode=blocking ordering=original repetitions=2 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s16_p2_original_blocking ranks=2 sources=2
+[2026-11-04T17:00:02+00:00] DONE RMAT_s16_p2_original_blocking

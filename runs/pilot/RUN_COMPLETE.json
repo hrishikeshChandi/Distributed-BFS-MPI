@@ -1,0 +1,25 @@
+{
+  "complete": true,
+  "datasets": [
+    "RMAT_s16"
+  ],
+  "ranks": [
+    1,
+    2,
+    4
+  ],
+  "orderings": [
+    "original",
+    "random"
+  ],
+  "modes": [
+    "blocking",
+    "nonblocking"
+  ],
+  "configurations": 12,
+  "bfs_summary_rows": 24,
+  "repetitions_per_configuration": 2,
+  "all_validations_pass": true,
+  "runner_version": "mpi-validated-v2-openmpi",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24"
+}

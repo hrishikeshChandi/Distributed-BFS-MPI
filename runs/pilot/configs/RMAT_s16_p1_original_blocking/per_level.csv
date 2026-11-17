@@ -1,0 +1,9 @@
+dataset,vertices,ranks,ordering,mode,source_index,level,next_frontier,expansion_ms,packing_ms,count_exchange_ms,collective_request_ms,local_candidate_ms,residual_wait_ms,received_merge_ms,level_wall_ms,remote_pairs_sent,remote_payload_bytes,frontier_imbalance
+RMAT_s16,65536,1,original,blocking,0,0,2,0.001927,0.001277,0.00243,0.000716,0.000453,0,6.7e-05,0.008912,0,0,1
+RMAT_s16,65536,1,original,blocking,0,1,418,0.020256,0.000925,0.000201,0.000163,0.004362,0,5e-05,0.026471,0,0,1
+RMAT_s16,65536,1,original,blocking,0,2,24374,5.77226,0.002529,0.003706,0.000917,0.946525,0,8.7e-05,6.72964,0,0,1
+RMAT_s16,65536,1,original,blocking,0,3,15233,5.54774,0.003223,0.004395,0.000853,0.514911,0,5.1e-05,6.07592,0,0,1
+RMAT_s16,65536,1,original,blocking,0,4,303,0.805551,0.001963,0.00091,0.001023,0.007559,0,5.1e-05,0.819115,0,0,1
+RMAT_s16,65536,1,original,blocking,0,5,1,0.006262,0.000865,0.000106,6.1e-05,0.00027,0,4.8e-05,0.008097,0,0,1
+RMAT_s16,65536,1,original,blocking,0,6,0,7.2e-05,0.000416,8.3e-05,5.9e-05,8e-05,0,4.8e-05,0.001099,0,0,0
+RMAT_s16,65536,1,original,blocking,1,0,0,0.000601,0.002671,0.004209,0.000752,7.2e-05,0,6.8e-05,0.010821,0,0,0

@@ -1,0 +1,31 @@
+{
+  "stage": "pilot",
+  "datasets": [
+    "RMAT_s16"
+  ],
+  "ranks": [
+    1,
+    2,
+    4
+  ],
+  "orderings": [
+    "original",
+    "random"
+  ],
+  "modes": [
+    "blocking",
+    "nonblocking"
+  ],
+  "repetitions": 2,
+  "scales": [
+    16
+  ],
+  "edge_factor": 8,
+  "run_snap": false,
+  "run_rmat": true,
+  "mpi_compiler": "/usr/bin/mpicxx.openmpi",
+  "mpi_launcher": "/usr/bin/mpirun.openmpi",
+  "mpi_version": "mpirun.openmpi (OpenRTE) 4.1.6",
+  "runner_version": "mpi-validated-v2-openmpi",
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24"
+}

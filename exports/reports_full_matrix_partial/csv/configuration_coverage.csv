@@ -1,0 +1,13 @@
+dataset,planned_configurations,validated_configurations,missing_configurations,highest_common_rank_for_per_level_plot
+RMAT_s16,20,20,0,16
+RMAT_s17,20,20,0,16
+RMAT_s18,20,20,0,16
+RMAT_s19,20,20,0,16
+RMAT_s20,20,20,0,16
+RMAT_s21,20,20,0,16
+RMAT_s22,20,20,0,16
+RMAT_s23,20,20,0,16
+RMAT_s24,20,14,6,4
+roadNet-CA,20,20,0,16
+soc-Epinions1,20,20,0,16
+web-Google,20,20,0,16

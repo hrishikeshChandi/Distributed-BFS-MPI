@@ -1,0 +1,17 @@
+dataset,ordering,rank,ranks,vertices,local_adjacency_entries,local_cut_edges
+soc-Epinions1,original,0,16,75888,241672,68512
+soc-Epinions1,original,1,16,75888,93324,75619
+soc-Epinions1,original,2,16,75888,41552,37489
+soc-Epinions1,original,3,16,75888,27441,25286
+soc-Epinions1,original,4,16,75888,24734,22056
+soc-Epinions1,original,5,16,75888,14975,13932
+soc-Epinions1,original,6,16,75888,11245,10558
+soc-Epinions1,original,7,16,75888,9386,8773
+soc-Epinions1,original,8,16,75888,7204,6721
+soc-Epinions1,original,9,16,75888,6441,6034
+soc-Epinions1,original,10,16,75888,6001,5318
+soc-Epinions1,original,11,16,75888,5208,4914
+soc-Epinions1,original,12,16,75888,4799,4464
+soc-Epinions1,original,13,16,75888,4436,4127
+soc-Epinions1,original,14,16,75888,4329,3421
+soc-Epinions1,original,15,16,75888,6090,4824

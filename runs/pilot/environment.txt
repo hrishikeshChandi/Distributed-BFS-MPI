@@ -1,0 +1,27 @@
+MPIEXEC=/usr/bin/mpirun.openmpi
+MPIEXEC_FLAGS=--allow-run-as-root --oversubscribe --bind-to none
+RANKS=1 2 4
+REPETITIONS=2
+EDGE_FACTOR=8
+SCALES=16
+RUNNER_VERSION=mpi-validated-v2-openmpi
+SOURCE_FINGERPRINT=622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24
+DATE=2026-11-04T17:00:16+00:00
+HOST=1a00880cf773
+KERNEL=Linux 1a00880cf773 6.6.159+ #1 SMP Thu Oct 22 03:07:54 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+--- MPI launcher ---
+mpirun.openmpi (OpenRTE) 4.1.6
+
+Report bugs to http://www.open-mpi.org/community/help/
+--- compiler ---
+g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+--- CPU ---
+Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      1
+Socket(s):                               1
+--- memory ---
+               total        used        free      shared  buff/cache   available
+Mem:            12Gi       1.2Gi       8.8Gi       2.3Mi       2.9Gi        11Gi
+Swap:             0B          0B          0B

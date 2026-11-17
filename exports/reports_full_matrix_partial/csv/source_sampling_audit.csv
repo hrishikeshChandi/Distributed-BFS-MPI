@@ -1,0 +1,13 @@
+dataset,sampled_sources,zero_work_sources,active_sources,zero_work_share
+RMAT_s16,16,8,8,0.5
+RMAT_s17,16,10,6,0.625
+RMAT_s18,16,11,5,0.6875
+RMAT_s19,16,11,5,0.6875
+RMAT_s20,16,11,5,0.6875
+RMAT_s21,16,11,5,0.6875
+RMAT_s22,16,11,5,0.6875
+RMAT_s23,16,13,3,0.8125
+RMAT_s24,16,13,3,0.8125
+roadNet-CA,16,0,16,0.0
+soc-Epinions1,16,6,10,0.375
+web-Google,16,4,12,0.25

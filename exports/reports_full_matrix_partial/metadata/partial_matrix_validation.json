@@ -1,0 +1,60 @@
+{
+  "input_run": "full_matrix",
+  "matrix_status": "PARTIAL_VALIDATED",
+  "all_included_configurations_validated": true,
+  "benchmark_matrix_complete": false,
+  "datasets": [
+    "RMAT_s16",
+    "RMAT_s17",
+    "RMAT_s18",
+    "RMAT_s19",
+    "RMAT_s20",
+    "RMAT_s21",
+    "RMAT_s22",
+    "RMAT_s23",
+    "RMAT_s24",
+    "roadNet-CA",
+    "soc-Epinions1",
+    "web-Google"
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "orderings": [
+    "original",
+    "random"
+  ],
+  "modes": [
+    "blocking",
+    "nonblocking"
+  ],
+  "planned_configurations": 240,
+  "configurations": 234,
+  "completion_fraction": 0.975,
+  "bfs_summary_rows": 3744,
+  "per_level_rows": 211144,
+  "rank_metric_rows": 1408,
+  "repetitions_per_configuration": 16,
+  "missing_configurations": [
+    "RMAT_s24_p16_original_blocking",
+    "RMAT_s24_p16_original_nonblocking",
+    "RMAT_s24_p16_random_blocking",
+    "RMAT_s24_p16_random_nonblocking",
+    "RMAT_s24_p8_random_blocking",
+    "RMAT_s24_p8_random_nonblocking"
+  ],
+  "zero_work_runs": 2102,
+  "active_work_runs": 1642,
+  "zero_work_fraction": 0.5614316239316239,
+  "sampled_source_count": 192,
+  "zero_work_unique_sampled_sources": 109,
+  "logical_cpus": 2,
+  "source_fingerprint": "622f129fc08cbb2af2d136027d2fe4f92259bbe2b59748192351cdcec4418f24",
+  "runner_version": "mpi-validated-v2-openmpi",
+  "failure_exit_code": 137,
+  "failed_configuration_at_interruption": "RMAT_s24_p8_random_blocking"
+}

@@ -1,0 +1,4 @@
+[2026-11-05T06:16:25+00:00] START RMAT_s17_p8_original_nonblocking
+Completed dataset=RMAT_s17 N=131072 ranks=8 mode=nonblocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s17_p8_original_nonblocking ranks=8 sources=16
+[2026-11-05T06:16:29+00:00] DONE RMAT_s17_p8_original_nonblocking

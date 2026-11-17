@@ -1,0 +1,4 @@
+[2026-11-04T17:20:24+00:00] START web-Google_p2_original_nonblocking
+Completed dataset=web-Google N=916428 ranks=2 mode=nonblocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS web-Google_p2_original_nonblocking ranks=2 sources=16
+[2026-11-04T17:20:51+00:00] DONE web-Google_p2_original_nonblocking

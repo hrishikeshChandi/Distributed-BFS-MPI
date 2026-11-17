@@ -1,0 +1,25 @@
+{
+  "ranks": 2,
+  "rank_ids": [
+    0,
+    1
+  ],
+  "summary_rows": 2,
+  "level_rows": 8,
+  "source_indices": [
+    0,
+    1
+  ],
+  "remote_pairs_sent_total": 2658,
+  "configuration": "original_blocking",
+  "validation_pass": true,
+  "summary_rank_counts": [
+    2
+  ],
+  "rank_metric_ids": [
+    0,
+    1
+  ],
+  "mode": "blocking",
+  "ordering": "original"
+}

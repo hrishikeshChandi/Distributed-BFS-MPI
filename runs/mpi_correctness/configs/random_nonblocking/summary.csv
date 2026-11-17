@@ -1,0 +1,3 @@
+dataset,vertices,edges,ranks,ordering,mode,source_index,source_vertex,elapsed_ms,traversed_edges,teps,reachable_vertices,remote_pairs_sent,remote_payload_bytes,validation,graph_seed,permutation_seed
+RMAT_smoke,1024,3327,2,random,nonblocking,0,332,1.24874,3326,2.66348e+06,682,3372,53952,PASS,12345,13464654573299691533
+RMAT_smoke,1024,3327,2,random,nonblocking,1,743,0.096503,0,0,1,0,0,PASS,12345,13464654573299691533

@@ -1,0 +1,4 @@
+[2026-11-05T07:54:33+00:00] START RMAT_s23_p8_random_nonblocking
+Completed dataset=RMAT_s23 N=8388608 ranks=8 mode=nonblocking ordering=random repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s23_p8_random_nonblocking ranks=8 sources=16
+[2026-11-05T07:57:12+00:00] DONE RMAT_s23_p8_random_nonblocking

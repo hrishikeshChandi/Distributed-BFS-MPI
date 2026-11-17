@@ -1,0 +1,4 @@
+[2026-11-05T06:35:43+00:00] START RMAT_s21_p1_original_blocking
+Completed dataset=RMAT_s21 N=2097152 ranks=1 mode=blocking ordering=original repetitions=16 validation=PASS
+CONFIG_VALIDATION_PASS RMAT_s21_p1_original_blocking ranks=1 sources=16
+[2026-11-05T06:36:36+00:00] DONE RMAT_s21_p1_original_blocking
